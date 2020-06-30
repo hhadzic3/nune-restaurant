@@ -18,10 +18,10 @@ export default function Gallery({ portfolioLinks }) {
               <ul className="cat">
                 <li>
                   <ol className="type">
-                    <li><a href="#" data-filter="*" className="active">Sve</a></li>
-                    <li><a href="#" data-filter=".breakfast">Jela sa roštilja</a></li>
-                    <li><a href="#" data-filter=".lunch">Tradicija</a></li>
-                    <li><a href="#" data-filter=".dinner">Objekat</a></li>
+                    <li><a  data-filter="*" className="active">Sve</a></li>
+                    <li><a  data-filter=".breakfast">Jela sa roštilja</a></li>
+                    <li><a  data-filter=".lunch">Tradicija</a></li>
+                    <li><a  data-filter=".dinner">Objekat</a></li>
                   </ol>
                 </li>
               </ul>
