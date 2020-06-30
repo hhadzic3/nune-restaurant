@@ -8,7 +8,7 @@ export default ({photos}) => {
                 <div className="col-md-10 col-md-offset-1 section-title">
                 <h2>Tradicija od 1966</h2>
                 <hr/>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed dapibus leonec.</p>
+                <p>Ćevabdžinica Nune se smatra drugom najstarijom ćevabdžinicom u Sarajevu.</p>
                 </div>
                 <div id="row">
                 {photos && photos.map(( {title , img, caption} , i) =>

@@ -8,7 +8,8 @@ export default ({ menu }) => {
       <div className="overlay">
         <h2> Meni </h2>
         <hr/>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed.</p>
+        <p>Standardni kvalitet naših ćevapčića, sudžukica ili pljeskavica, naše usluge, kao i svega ostalog iz raznovrsne
+                        ponude, zadovoljne goste uvijek vraća kod Nuneta.</p>
       </div>
     </div>
     <div className="container">

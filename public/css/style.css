@@ -518,3 +518,12 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#779936', end
 	width: 90%;
 	height: 400px;
 }
+#contact p{
+	color: teal;
+}
+#portfolio p{
+	margin: 0px 50px;
+}
+#restaurant-menu p{
+	margin: 0px 50px;
+}
