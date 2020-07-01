@@ -15,32 +15,57 @@ function App() {
     {
       title: 'Pljeskavica',
       img: './img/pljeska.jpg',
-      classa: "col-sm-6 col-md-4 col-lg-4 breakfast"
+      classa: "col-sm-6 col-md-4 col-lg-4 rostilj"
     },
     {
-      title: 'Cevapi',
-      img: './img/pljeska.jpg',
-      classa: "col-sm-6 col-md-4 col-lg-4 breakfast"
+      title: 'Ćevapi',
+      img: './img/cevapi.jpg',
+      classa: "col-sm-6 col-md-4 col-lg-4 rostilj"
     },
     {
-      title: 'Plata1',
-      img: './img/pljeska.jpg',
-      classa: "col-sm-6 col-md-4 col-lg-4 breakfast"
+      title: 'Biftek',
+      img: './img/biftek.jpg',
+      classa: "col-sm-6 col-md-4 col-lg-4 rostilj"
     },
     {
-      title: 'Plata2',
-      img: './img/pljeska.jpg',
-      classa: "col-sm-6 col-md-4 col-lg-4 breakfast"
+      title: 'Plata',
+      img: './img/plata.jpg',
+      classa: "col-sm-6 col-md-4 col-lg-4 rostilj"
     },
     {
       title: 'Sudjukice',
-      img: './img/pljeska.jpg',
-      classa: "col-sm-6 col-md-4 col-lg-4 breakfast"
+      img: './img/sudjukice.jpg',
+      classa: "col-sm-6 col-md-4 col-lg-4 rostilj"
     },
     {
       title: 'Kombinacija',
-      img: './img/pljeska.jpg',
-      classa: "col-sm-6 col-md-4 col-lg-4 breakfast"
+      img: './img/plata.jpg',
+      classa: "col-sm-6 col-md-4 col-lg-4 rostilj"
+    },
+    {
+      title: 'Teletina',
+      img: './img/teletina.jpg',
+      classa: "col-sm-6 col-md-4 col-lg-4 rostilj"
+    },
+    {
+      title: 'Hamburger',
+      img: './img/burger.jpg',
+      classa: "col-sm-6 col-md-4 col-lg-4 rostilj"
+    },
+    {
+      title: 'Lokacija',
+      img: './img/ulica.jpg',
+      classa: "col-sm-6 col-md-4 col-lg-4 radnja"
+    },
+    {
+      title: 'Porodica',
+      img: './img/team/ekipa.jpg',
+      classa: "col-sm-6 col-md-4 col-lg-4 radnja"
+    },
+    {
+      title: 'Otac i sin',
+      img: './img/team/ekipa2.jpg',
+      classa: "col-sm-6 col-md-4 col-lg-4 radnja"
     }
   ]
 
