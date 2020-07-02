@@ -1,0 +1,19 @@
+{
+    "t":[
+    {
+      "title": "Nune",
+      "img": "./img/team/header.jpg",
+      "caption": "Ćevabdžinica “Nune” nalazi se u samom centru Sarajeva u ulici Ferhadija. "
+    },
+    {
+      "title": "Lokacija",
+      "img": "./img/team/ekipa2.jpg",
+      "caption": "U pasažu prekoputa gradske tržnice “Markale” mala radnja je počela da piše svoju historiju davne 1966. godine."
+    },
+    {
+      "title": "Porodica",
+      "img": "./img/team/ekipa.jpg",
+      "caption": "Recept i tradicija se dosljedno prenosi sa koljena na koljeno punih 54 godine. "
+    }
+  ]
+}

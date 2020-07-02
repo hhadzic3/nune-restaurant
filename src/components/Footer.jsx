@@ -20,9 +20,9 @@ export default () => {
           </div>
         </div>
         <div className="col-md-4">
-          <h3>Contact Info</h3>
+          <h3> Kontakt </h3>
           <div className="contact-item">
-            <p>Telefon: +387 000 000</p>
+            <p>Telefon: +387 033/ 21 29 46</p>
             <p>Email: salem@company.com</p>
           </div>
         </div>

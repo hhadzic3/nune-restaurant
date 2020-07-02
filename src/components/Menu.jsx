@@ -52,6 +52,23 @@ export default ({ menu }) => {
         </div>
       </div>
       <div className="row">
+        <div className="col-xs-12 col-sm-6">
+          <div className="menu-section">
+            <h2 className="menu-section-title"> Burgeri </h2>
+            <hr/>
+            {menu && menu.map(( {type ,title , price , caption} , i) =>
+            ( type === 'burger' ?
+            (  
+              <div className="menu-item" key={title}>
+                <div className="menu-item-name"> {title} </div>
+                <div className="menu-item-price"> {price} </div>
+                <div className="menu-item-description"> {caption} </div>
+              </div>
+            ) : (<p key={title}> </p>)
+            )
+            )}
+          </div>
+        </div>
         
         <div className="col-xs-12 col-sm-6">
           <div className="menu-section">
@@ -70,6 +87,7 @@ export default ({ menu }) => {
             )}
           </div>
         </div>
+
       </div>
     </div>
   </div>

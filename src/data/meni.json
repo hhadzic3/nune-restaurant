@@ -1,0 +1,275 @@
+{
+    "meni":[
+    {
+    "type": "rostilj",
+    "title": "Ćevapčići (5 u pola)",
+      "price": "3,00 KM",
+      "caption": "5 pieces of ćevapi 100g"
+    },
+    {
+         "type": "rostilj",
+         "title": "Ćevapčići (10 u pola)",
+      "price": "6,00 KM",
+      "caption": "10 pieces of ćevapi 200g"
+    }
+    ,
+    {
+        "type": "rostilj",
+        "title": "Ćevapčići (15 u čitav)",
+      "price": "9,00 KM",
+      "caption": "15 pieces of ćevapi 300g"
+    }
+    ,
+    {
+         "type": "rostilj",
+         "title": "Sudžukice (velika porcija)",
+      "price": "7,00 KM",
+      "caption": "big portion of bosnian sausages 250g"
+    }
+    ,
+    {
+         "type": "rostilj",
+         "title": "Sudžukice (mala porcija) - small portion of bosnian sausages 125g ....",
+      "price": "3,50 KM",
+      "caption": ""
+    }
+    ,
+    {
+         "type": "rostilj",
+         "title": "Punjena pljeskavica - stuffed pljeskavica 400g",
+      "price": "10,00 KM",
+      "caption": ""
+    }
+    ,
+    {
+         "type": "rostilj",
+         "title": "Pljeskavica (velika porcija) - big portion of the flat meat/bosnian burger 200g",
+      "price": "6,00 KM",
+      "caption": ""
+    }
+    ,
+    {
+         "type": "rostilj",
+         "title": "Pljeskavica (mala porcija) - small portion of flat meat/bosnian burger100g",
+      "price": "3,00 KM",
+      "caption": ""
+    }
+    ,
+    {
+         "type": "rostilj",
+         "title": " Kombinacija (5 ćevapa i mala p. sudžukica) - mixed plate of 5 pieces of ćevapi and small p. of sausages225g",
+      "price": "6,50 KM",
+      "caption": ""
+    }
+    ,
+    {
+         "type": "rostilj",
+         "title": "",
+      "price": "",
+      "caption": ""
+    }
+    ,
+    {
+         "type": "rostilj",
+         "title": "",
+      "price": "",
+      "caption": ""
+    }
+    ,
+    {
+         "type": "rostilj",
+         "title": "",
+      "price": "",
+      "caption": ""
+    }
+    ,
+    {
+         "type": "rostilj",
+         "title": "",
+      "price": "",
+      "caption": ""
+    }
+    ,
+    {
+         "type": "rostilj",
+         "title": "",
+      "price": "",
+      "caption": ""
+    }
+    ,
+    {
+         "type": "rostilj",
+         "title": "",
+      "price": "",
+      "caption": ""
+    }
+    ,
+    {
+         "type": "rostilj",
+         "title": "",
+      "price": "",
+      "caption": ""
+    }
+    ,
+    {
+         "type": "burger",
+         "title": "“Nune” burger ",
+      "price": "6,00 KM",
+      "caption": "200g"
+    }
+    ,
+    {
+         "type": "burger",
+         "title": "Burger",
+      "price": "4,00 KM",
+      "caption": "150g"
+    }
+    ,
+    {
+         "type": "burger",
+         "title": "Mali hamburger",
+      "price": "2,50 KM",
+      "caption": "small burger 100g"
+    }
+    ,
+    {
+         "type": "burger",
+         "title": "Cheeseburger veliki",
+      "price": "4,50 KM",
+      "caption": "big cheeseburger 150g"
+    }
+    ,
+    {
+         "type": "burger",
+         "title": "Cheeseburger mali",
+      "price": "3,00 KM",
+      "caption": "small cheeseburger 100g"
+    }
+    ,
+    {
+         "type": "burger",
+         "title": "Pileći sendvić",
+      "price": "3,00 KM",
+      "caption": "chicken sandwich 120g"
+    }
+    ,
+    {
+         "type": "pice",
+         "title": "Gazirani sokovi 0,25l",
+      "price": "2,00 KM",
+      "caption": "carbonated drinks"
+    }
+    ,
+    {
+         "type": "pice",
+         "title": "Prirodni sokovi 0,20l",
+      "price": "2,00 KM",
+      "caption": "natural juices"
+    }
+    ,
+    {
+         "type": "pice",
+         "title": "Kisela voda s okusom-Sensation 0,25l",
+      "price": "2,00 KM",
+      "caption": "sparkling water with flavor"
+    }
+    ,
+    {
+         "type": "pice",
+         "title": "Domaći jogurt",
+      "price": "1,50 KM",
+      "caption": "homemade yogurt"
+    }
+    ,
+    {
+         "type": "pice",
+         "title": "Jogurt",
+      "price": "1,00 KM",
+      "caption": "yogurt"
+    }
+    ,
+    {
+         "type": "pice",
+         "title": "Kisela voda 0,25l",
+      "price": "1,50 KM",
+      "caption": "sparkling mineral water"
+    }
+    ,
+    {
+         "type": "pice",
+         "title": "Prirodna voda 0,25l",
+      "price": "1,50 KM",
+      "caption": "natural mineral water"
+    }
+    ,
+    {
+         "type": "prilog",
+         "title": "Pileća salata",
+      "price": "6,00 KM",
+      "caption": "chicken salad"
+    }
+    ,
+    {
+         "type": "prilog",
+         "title": "Biftek salata",
+      "price": "10,00 KM",
+      "caption": "steak salad"
+    }
+    ,
+    {
+         "type": "prilog",
+         "title": "Grilovano povrće",
+      "price": "7,00 KM",
+      "caption": "grilled vegetables"
+    }
+    ,
+    {
+         "type": "prilog",
+         "title": "Miješana salata - mixed salad",
+      "price": "2,00/4,00 KM",
+      "caption": "Mala/velika porcija"
+    }
+    ,
+    {
+         "type": "prilog",
+         "title": "Šopska salata - mixed salad with cheese ",
+      "price": "3,00/6,00 KM",
+      "caption": "Mala/velika porcija"
+    }
+    ,
+    {
+         "type": "prilog",
+         "title": "Salata od krastavaca s jogurtom - cucumber mixed with white cream and yogurt",
+      "price": "2,00/4,00 KM",
+      "caption": "Mala/velika"
+    }
+    ,
+    {
+         "type": "prilog",
+         "title": "Turšija - traditional sour salad",
+      "price": "2,00/4,00 KM",
+      "caption": "Mala/velika"
+    }
+    ,
+    {
+         "type": "prilog",
+         "title": "Kajmak",
+      "price": "1,00 KM",
+      "caption": "traditional homemade cream cheese 100g"
+    }
+    ,
+    {
+         "type": "prilog",
+         "title": "Feferoni",
+      "price": "0,50 KM",
+      "caption": "chili peppers"
+    }
+    ,
+    {
+         "type": "prilog",
+         "title": "Pola somuna",
+      "price": "0,50 KM",
+      "caption": "traditional flat bread"
+    }
+  ]
+}
