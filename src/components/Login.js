@@ -13,6 +13,8 @@ import Typography from '@material-ui/core/Typography';
 import { makeStyles } from '@material-ui/core/styles';
 import Container from '@material-ui/core/Container';
 
+import { useHistory } from "react-router-dom";
+
 function Copyright() {
   return (
     <Typography variant="body2" color="textSecondary" align="center">
@@ -49,6 +51,12 @@ const useStyles = makeStyles((theme) => ({
 export default function Login() {
   const classes = useStyles();
 
+  const history = useHistory();
+
+   const handleOnSubmit = () => {
+    history.push('/admin');
+    };
+
   return (
     <Container component="main" maxWidth="xs">
       <CssBaseline />
@@ -56,7 +64,7 @@ export default function Login() {
         <Avatar className={classes.avatar}>
         </Avatar>
         <Typography component="h1" variant="h5">
-          Sign in
+          Prijava samo za vlasnika objekta!
         </Typography>
         <form className={classes.form} noValidate>
           <TextField
@@ -86,23 +94,24 @@ export default function Login() {
             label="Remember me"
           />
           <Button
-            type="submit"
+            onClick={handleOnSubmit}
+            //type="submit"
             fullWidth
             variant="contained"
             color="primary"
             className={classes.submit}
           >
-            Sign In
+            Prijavi se  
           </Button>
           <Grid container>
             <Grid item xs>
-              <Link href="#" variant="body2">
-                Forgot password?
+              <Link href="/" variant="body">
+                POČETNA STRANICA!
               </Link>
             </Grid>
             <Grid item>
-              <Link href="#" variant="body2">
-                {"Don't have an account? Sign Up"}
+              <Link href="/" variant="body2">
+                {"POČETNA STRANICA!"}
               </Link>
             </Grid>
           </Grid>

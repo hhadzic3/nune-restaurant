@@ -1,5 +1,6 @@
 import React from 'react';
 
+import { Link } from 'react-router-dom'
 
 export default () => {
     return(
@@ -17,7 +18,7 @@ export default () => {
                         <li><a href="#portfolio" className="page-scroll">Galerija</a></li>
                         <li><a href="#team" className="page-scroll">Tradicija</a></li>
                         <li><a href="#call-reservation" className="page-scroll">Kontakt</a></li>
-                        <li><a href="/login" className="page-scroll">Prijava</a></li>
+                        <li><Link to="/login" className="page-scroll">Prijava</Link></li>
                     </ul>
                 </div>
                 </div>
