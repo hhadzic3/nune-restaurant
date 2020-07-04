@@ -13,6 +13,9 @@ import Meni from "./data/meni.json"
 import Tradition from "./data/tradition.json"
 import G from "./data/gallery.json"
 
+import { Route, Switch } from 'react-router-dom'
+import Login from './components/Login'
+
 function App() {
   const portfolioLinks = G.gallery;
   const photos = Tradition.t;
@@ -20,16 +23,22 @@ function App() {
 
   return (
     <div className="App">
-      <Header/>
-      <About/>
-      <Menu menu={menu} />
-      <SimpleReactLightbox>
-        <Gallery portfolioLinks={portfolioLinks} ></Gallery>
-      </SimpleReactLightbox>
-      <Chefs photos={photos}/>
-      <Info/>
-      <Contact  ></Contact>
-      <Footer/>
+      <Switch>
+          <Route path="/login" component={Login} />
+          
+          <Route exact path="/">
+            <Header/>
+            <About/>
+            <Menu menu={menu} />
+            <SimpleReactLightbox>
+              <Gallery portfolioLinks={portfolioLinks} ></Gallery>
+            </SimpleReactLightbox>
+            <Chefs photos={photos}/>
+            <Info/>
+            <Contact></Contact>
+            <Footer/>
+          </Route>
+      </Switch>
     </div>
   );
 }

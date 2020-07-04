@@ -1,5 +1,6 @@
 import React from 'react';
 
+
 export default () => {
     return(
         <div> 
@@ -16,6 +17,7 @@ export default () => {
                         <li><a href="#portfolio" className="page-scroll">Galerija</a></li>
                         <li><a href="#team" className="page-scroll">Tradicija</a></li>
                         <li><a href="#call-reservation" className="page-scroll">Kontakt</a></li>
+                        <li><a href="/login" className="page-scroll">Prijava</a></li>
                     </ul>
                 </div>
                 </div>
