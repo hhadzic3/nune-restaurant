@@ -15,7 +15,7 @@ import G from "./data/gallery.json"
 
 import { Route, Switch } from 'react-router-dom'
 import Login from './components/Login'
-import Admin from './components/Admin'
+import Admin from './components/posts/Admin'
 
 function App() {
   const portfolioLinks = G.gallery;
