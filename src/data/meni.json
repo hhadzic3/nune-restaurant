@@ -57,9 +57,9 @@
     ,
     {
          "type": "rostilj",
-         "title": "Kombinacija (5 ćevapa i mala p. sudžukica) 225g",
+         "title": "Kombinacija(petica,male sudžukice)",
       "price": "6,50 KM",
-      "caption": "mixed plate of 5 pieces of ćevapi and small p. of sausages"
+      "caption": "mixed plate of 5 pieces of ćevapi and small p. of sausages 225g"
     }
     , 
     {
@@ -120,7 +120,7 @@
     ,
     {
          "type": "pice",
-         "title": "Kisela voda s okusom-Sensation 0,25l",
+         "title": "Kisela voda-Sensation 0,25l",
       "price": "2,00 KM",
       "caption": "sparkling water with flavor"
     }
@@ -190,23 +190,23 @@
     ,
     {
          "type": "prilog",
-         "title": "Salata od krastavaca s jogurtom",
+         "title": "Salata od krastavaca",
       "price": "2,00/4,00 KM",
       "caption": "Cucumber mixed with white cream and yogurt"
     }
     ,
     {
          "type": "prilog",
-         "title": "Turšija - traditional sour salad",
+         "title": "Turšija - mala/velika",
       "price": "2,00/4,00 KM",
-      "caption": "Mala/velika"
+      "caption": "traditional sour salad"
     }
     ,
     {
          "type": "prilog",
-         "title": "Kajmak",
+         "title": "Kajmak 100g",
       "price": "1,00 KM",
-      "caption": "traditional homemade cream cheese 100g"
+      "caption": "traditional homemade cream cheese "
     }
     ,
     {
