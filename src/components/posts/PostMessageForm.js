@@ -1,3 +1,4 @@
+/*
 import React, { useEffect } from "react";
 import { TextField, withStyles, Button } from "@material-ui/core";
 import useForm from "./useForm";
@@ -124,3 +125,5 @@ const mapActionToProps = {
 
 
 export default connect(mapStateToProps, mapActionToProps)(withStyles(styles)(PostMessageForm));
+
+*/

@@ -16,7 +16,7 @@ import Typography from '@material-ui/core/Typography';
 import { makeStyles } from '@material-ui/core/styles';
 import Container from '@material-ui/core/Container';
 
-import { useHistory } from "react-router-dom";
+//import { useHistory } from "react-router-dom";
 
 function Copyright() {
   return (
@@ -53,12 +53,13 @@ const useStyles = makeStyles((theme) => ({
 
 export default function Login() {
 
-  const history = useHistory();
   
-  const handleOnSubmit = () => {
+  /*
+  const history = useHistory();
+   const handleOnSubmit = () => {
     history.push('/admin');
   };
-  
+  */
  
   var classes = useStyles();
   return (

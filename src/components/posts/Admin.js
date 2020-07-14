@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+/*import React, { Component } from "react";
 import { Provider } from "react-redux";
 import PostMessages from "./PostMessages";
 import { store } from "../../actions/store";
@@ -27,3 +27,4 @@ class Admin extends Component {
 }
 
 export default Admin;
+*/

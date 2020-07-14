@@ -15,8 +15,10 @@ import G from "./data/gallery.json"
 
 import { Route, Switch } from 'react-router-dom'
 import Login from './components/login/Login'
+/*
 import Admin from './components/posts/Admin'
-
+<Route path="/admin" component={Admin} />
+*/        
 function App() {
   const portfolioLinks = G.gallery;
   const photos = Tradition.t;
@@ -25,7 +27,6 @@ function App() {
   return (
     <div className="App">
       <Switch>
-          <Route path="/admin" component={Admin} />
           <Route path="/login" component={Login} />
           <Route exact path="/">
             <Header/>
