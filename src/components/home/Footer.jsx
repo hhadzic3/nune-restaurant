@@ -15,15 +15,15 @@ export default () => {
         <div className="col-md-4">
           <h3> Radno vrijeme </h3>
           <div className="contact-item">
-            <p> Ponedjeljak - Subota: 10:00 AM - 10:00 PM</p>
-            <p> Nedjelja: 11:00 AM - 05:00 AM</p>
+            <p> Ponedjeljak - Subota: 10:00 AM - 9:00 PM</p>
+            <p> Nedjelja: 10:00 AM - 4:00 PM</p>
           </div>
         </div>
         <div className="col-md-4">
           <h3> Kontakt </h3>
           <div className="contact-item">
             <p>Telefon: +387 033/ 21 29 46</p>
-            <p>Email: salem@company.com</p>
+            <p>Email: salem.ogresevic99@gmail.com</p>
           </div>
         </div>
       </div>
