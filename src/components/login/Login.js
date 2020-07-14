@@ -1,4 +1,7 @@
-import React from 'react'
+import React, { Component } from 'react'
+
+
+//import { login } from './UserFunctions'
 
 import Avatar from '@material-ui/core/Avatar';
 import Button from '@material-ui/core/Button';
@@ -49,14 +52,15 @@ const useStyles = makeStyles((theme) => ({
 }));
 
 export default function Login() {
-  const classes = useStyles();
 
   const history = useHistory();
-
-   const handleOnSubmit = () => {
+  
+  const handleOnSubmit = () => {
     history.push('/admin');
-    };
-
+  };
+  
+ 
+  var classes = useStyles();
   return (
     <Container component="main" maxWidth="xs">
       <CssBaseline />
@@ -66,7 +70,7 @@ export default function Login() {
         <Typography component="h1" variant="h5">
           Prijava samo za vlasnika objekta!
         </Typography>
-        <form className={classes.form} noValidate>
+        <form className={classes.form} noValidate  >
           <TextField
             variant="outlined"
             margin="normal"
@@ -76,6 +80,8 @@ export default function Login() {
             label="Email Address"
             name="email"
             autoComplete="email"
+            placeholder="Enter email"
+            
             autoFocus
           />
           <TextField
@@ -88,13 +94,15 @@ export default function Login() {
             type="password"
             id="password"
             autoComplete="current-password"
+            placeholder="Password"
+              
           />
           <FormControlLabel
             control={<Checkbox value="remember" color="primary" />}
             label="Remember me"
           />
           <Button
-            onClick={handleOnSubmit}
+            //onClick={handleOnSubmit}
             //type="submit"
             fullWidth
             variant="contained"
@@ -123,3 +131,5 @@ export default function Login() {
     </Container>
   );
 }
+
+

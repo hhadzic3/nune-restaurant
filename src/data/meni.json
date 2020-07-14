@@ -29,7 +29,7 @@
     ,
     {
          "type": "rostilj",
-         "title": "Sudžukice (mala porcija)  125g ....",
+         "title": "Sudžukice (mala porcija)  125g",
       "price": "3,50 KM",
       "caption": "small portion of bosnian sausages"
     }
@@ -43,7 +43,7 @@
     ,
     {
          "type": "rostilj",
-         "title": "Pljeskavica (velika porcija)  200g",
+         "title": "Pljeskavica (velika porcija) 200g",
       "price": "6,00 KM",
       "caption": " big portion of the flat meat/bosnian burger"
     }
@@ -57,7 +57,7 @@
     ,
     {
          "type": "rostilj",
-         "title": " Kombinacija (5 ćevapa i mala p. sudžukica) - 225g",
+         "title": "Kombinacija (5 ćevapa i mala p. sudžukica) 225g",
       "price": "6,50 KM",
       "caption": "mixed plate of 5 pieces of ćevapi and small p. of sausages"
     }
@@ -176,23 +176,23 @@
     ,
     {
          "type": "prilog",
-         "title": "Miješana salata - mixed salad",
+         "title": "Miješana salata - mala/velika",
       "price": "2,00/4,00 KM",
-      "caption": "Mala/velika porcija"
+      "caption": "mixed salad"
     }
     ,
     {
          "type": "prilog",
-         "title": "Šopska salata - mixed salad with cheese ",
+         "title": "Šopska salata - mala/velika",
       "price": "3,00/6,00 KM",
-      "caption": "Mala/velika porcija"
+      "caption": " Mixed salad with cheese "
     }
     ,
     {
          "type": "prilog",
-         "title": "Salata od krastavaca s jogurtom - cucumber mixed with white cream and yogurt",
+         "title": "Salata od krastavaca s jogurtom",
       "price": "2,00/4,00 KM",
-      "caption": "Mala/velika"
+      "caption": "Cucumber mixed with white cream and yogurt"
     }
     ,
     {
